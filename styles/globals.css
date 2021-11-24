@@ -2,8 +2,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+body,
+main {
+  height: 100vh;
+  width: 100vw;
 }
 
 a {
@@ -13,4 +19,99 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#caml {
+  transition: opacity 2s;
+}
+
+#caml_leg_1 {
+  animation: caml_leg_1__tr 1000ms linear infinite normal forwards;
+}
+@keyframes caml_leg_1__tr {
+  0% {
+    transform: translate(175.074941px, 317.172374px) rotate(32.446213deg);
+  }
+  50% {
+    transform: translate(175.074941px, 317.172374px) rotate(-21.000759deg);
+  }
+  100% {
+    transform: translate(175.074941px, 317.172374px) rotate(27.229202deg);
+  }
+}
+#caml_leg_2 {
+  animation: caml_leg_2__tr 1000ms linear infinite normal forwards;
+}
+@keyframes caml_leg_2__tr {
+  0% {
+    transform: translate(178.477796px, 312.487035px) rotate(-17.549098deg);
+  }
+  50% {
+    transform: translate(178.477796px, 312.487035px) rotate(23.512828deg);
+  }
+  100% {
+    transform: translate(178.477796px, 312.487035px) rotate(-17.315873deg);
+  }
+}
+#caml_leg_3 {
+  animation: caml_leg_3__tr 1000ms linear infinite normal forwards;
+}
+@keyframes caml_leg_3__tr {
+  0% {
+    transform: translate(411.477517px, 316.62711px) rotate(32.446213deg);
+  }
+  50% {
+    transform: translate(411.477517px, 316.62711px) rotate(-21.000759deg);
+  }
+  100% {
+    transform: translate(411.477517px, 316.62711px) rotate(27.229202deg);
+  }
+}
+#caml_leg_4 {
+  animation: caml_leg_4__tr 1000ms linear infinite normal forwards;
+}
+@keyframes caml_leg_4__tr {
+  0% {
+    transform: translate(414.880373px, 311.94177px) rotate(-17.549098deg);
+  }
+  50% {
+    transform: translate(414.880373px, 311.94177px) rotate(23.512828deg);
+  }
+  100% {
+    transform: translate(414.880373px, 311.94177px) rotate(-17.315873deg);
+  }
+}
+#humps {
+  animation: humpy_bumpy 1000ms linear infinite normal forwards;
+}
+@keyframes humpy_bumpy {
+  0% {
+    transform: translate(287.326889px, 217.459794px);
+  }
+  30% {
+    transform: translate(287.326889px, 217.459794px);
+  }
+  50% {
+    transform: translate(287.326889px, 215.459794px);
+  }
+  70% {
+    transform: translate(287.326889px, 215.459794px);
+  }
+  100% {
+    transform: translate(287.326889px, 217.459794px);
+  }
+}
+#caml_neck_path_tr {
+  animation: caml_neck_path_tr__tr 1000ms linear infinite normal forwards;
+}
+@keyframes caml_neck_path_tr__tr {
+  0% {
+    transform: translate(522.39814px, 197.30719px) rotate(0deg);
+  }
+  50% {
+    transform: translate(522.39814px, 197.30719px) rotate(7.137817deg);
+  }
+  100% {
+    transform: translate(522.39814px, 197.30719px) rotate(0.316367deg);
+  }
 }
