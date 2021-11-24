@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { BorderWalk } from "./border-walk";
-import { CamlWalker } from "./caml-walker";
+import { BorderWalk } from "../src/components/border-walk";
+import { CamlWalker } from "../src/components/caml-walker";
 
 export default function Home() {
   return (
