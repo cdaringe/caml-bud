@@ -93,6 +93,6 @@ export const BorderWalk: React.FC<{ walkId: string }> = ({
       });
     };
     move();
-  }, []);
+  }, [walkId]);
   return children as any;
 };
